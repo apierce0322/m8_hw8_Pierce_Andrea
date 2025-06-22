@@ -3,34 +3,79 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Micro Interactions</title>
+  <title>Company Landing Page</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
 
+  <!-- HEADER -->
   <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <div class="logo"><a href="#">COMPANY NAME</a></div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
   </header>
 
+  <!-- HERO SECTION -->
   <section class="hero">
-    <h1>Welcome to My Page</h1>
-    <button>Get Started</button>
+    <div class="overlay">
+      <h1>This is a call to action. It makes you want to click the button below.</h1>
+      <button>CLICK NOW</button>
+    </div>
   </section>
 
-  <main class="main-content">
-    <p>
-      Lorem ipsum dolor sit amet, <a href="#">consectetur</a> adipiscing elit. 
-      Sed do <a href="#">eiusmod</a> tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, <a href="#">quis nostrud</a> exercitation ullamco.
-    </p>
+  <!-- MAIN CONTENT -->
+  <main class="content">
+    <section class="text-block">
+      <h2>Main Heading</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, 
+        consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, 
+        aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores 
+        modi <a href="#">ad id nobis aspernatur deleniti!</a>
+        Dolorem totam quam fugiat iste, recusandae quod voluptate a maiores numquam sapiente 
+        velit consectetur necessitatibus possimus natus fugit aut assumenda corrupti magnam.
+        Sequi voluptatibus cumque, commodi at sit facere dicta sed eaque, eligendi consectetur 
+        asperiores fuga odio ab saepe incidunt obcaecati perferendis, iure reprehenderit 
+        accusantium ipsum dolorum aperiam neque.
+      </p>
+    </section>
+
+    <section class="image-text">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Coyote_face.jpg/440px-Coyote_face.jpg" alt="Coyote">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, 
+        consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, 
+        aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores 
+        modi <a href="#">ad id nobis aspernatur deleniti!</a> Dolorem, totam quam fugiat iste, 
+        recusandae quod voluptate a maiores numquam sapiente velit consectetur necessitatibus 
+        possimus natus fugit aut assumenda corrupti magnam. Sequi <a href="#">voluptatibus</a> 
+        cumque, commodi at sit facere dicta sed eaque.
+      </p>
+    </section>
+
+    <section class="text-block">
+      <h2>Subheading</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium mollitia, 
+        consequatur eaque, odio repellat optio quis dolore dolorem laboriosam voluptatibus, 
+        aliquam beatae debitis sequi minus expedita accusantium distinctio voluptas maiores 
+        modi ad id nobis aspernatur deleniti! Dolorem, totam quam fugiat iste, recusandae 
+        quod voluptate a maiores numquam sapiente velit consectetur necessitatibus possimus 
+        natus fugit aut assumenda corrupti magnam. Sequi <a href="#">corrupti</a> vitae tempora 
+        repellendus numquam! Veniam quasi eius eum ratione natus doloremque recusandae 
+        consequuntur exercitationem?
+      </p>
+    </section>
   </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© COMPANY NAME 2025</p>
+  </footer>
 
 </body>
 </html>
